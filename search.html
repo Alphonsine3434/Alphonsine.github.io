@@ -30,14 +30,57 @@
         </div>
         <!-- end of header-->
 
-        
+        <!-- section1-->
+        <div class="section1" id="search">
+            <div id="event-search" class=" section1-content bg-primary-gray py-4 mt-4 ">
+                <h3 class="primary-gray text-center py-3 text-secondary">Filter by location, host, subject, date, daytime:</h3>
+                <form class="d-flex align-items-center justify-content-center flex-wrap p-n2">
+                    <div class="form-group p-2">
+                        <label for="location">Location</label>
+                        <input type="text" class="form-control" id="location">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="host">Host</label>
+                        <input type="text" class="form-control" id="host">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="initial-date">Initial Date</label>
+                        <input type="date" class="form-control" id="initial-date">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="final-date">Final Date</label>
+                        <input type="date" class="form-control" id="final-date">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="final-date">Daytime</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Choose...</option>
+                            <option value="1">Day</option>
+                            <option value="2">Night</option>
+                          </select>
+                    </div>
+                    <div class="p-2">
+                        <button type="submit" class="btn btn-primary">Search</button>
+                        <button type="submit" class="btn btn-warning text-white">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                            Clear form
+                        </button>
+                    </div>
+                </form>
+            </div>
+        <!-- end of section1-->
+
         <!-- section2-->
         <div class="section2">
             <div class="section2-content container py-5">
                 <div>
                     <h6 class="text-center mb-5 text-secondary fs-4">Search Result Found 7 [Events] Nearby</h6>
                 </div>
-                <div class="d-flex justify-content-around mx-5 px-5">
+                <div class="d-flex justify-content-around flex-wrap mx-5 px-5">
                     <div class="content-image  text-center ">
                         <a href="#" class="text-decoration-none text-white">go to [gathering] example</a>
                     </div>
@@ -96,11 +139,11 @@
         <div class="footer-btn">
             <div class="copyright-content px-3 d-flex justify-content-between bg-secondary py-2">
                 <div class="text-white py-2 my-auto">
-                    <i class="fa-brands fa-facebook-square me-4 fs-4"></i>
-                    <i class="fa-brands fa-twitter me-4 fs-4"></i>
-                    <i class="fa-brands fa-instagram me-4 fs-4"></i>
-                    <i class="fa-solid fa-t me-4 fs-4"></i>
-                    <i class="fa-brands fa-linkedin me-4 fs-4"></i>
+                    <a href="#" class="text-white"><i class="fa-brands fa-facebook-square me-4 fs-4"></i></a>
+                    <a href="#" class="text-white"><i class="fa-brands fa-twitter me-4 fs-4"></i></a>
+                    <a href="#" class="text-white"><i class="fa-brands fa-instagram me-4 fs-4"></i></a>
+                    <a href="#" class="text-white"><i class="fa-brands fa-tumblr me-4 fs-4"></i></a>
+                    <a href="#" class="text-white"><i class="fa-brands fa-linkedin me-4 fs-4"></i></a>
                 </div>
                 <div class="my-auto d-block py-2">
                     <p class="">&copy; 2020 [Events], Inc.All rights reserved </p>
