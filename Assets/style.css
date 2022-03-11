@@ -19,6 +19,17 @@
     width: 50%;
 }
 
+/* content */
+.content-image{
+    width: 30%;
+    height: 30vh;
+    background-image: url('./Images/group-2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: red;
+}
+
 /* footer*/
 .footer{
     background-color: #1f1f1f;
