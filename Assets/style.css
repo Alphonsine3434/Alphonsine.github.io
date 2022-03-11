@@ -1,0 +1,24 @@
+
+/* header */
+.header{
+    background-color:#d35649 ;
+}
+
+/* footer*/
+.footer{
+    background-color: #1f1f1f;
+}
+.footer-left, .footer-right{
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+}
+.location{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: solid 1px white;   
+}
+.footer-btn{
+    background-color: #444;
+}
+/* end of footer */
