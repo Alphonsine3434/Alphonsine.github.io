@@ -3,6 +3,21 @@
 .header{
     background-color:#d35649 ;
 }
+/* section0*/
+
+.section0-content{
+    background-image: url('./Images/group-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.input-group{
+    width: 90%;
+}
+.search{
+    width: 50%;
+}
 
 /* footer*/
 .footer{
