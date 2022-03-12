@@ -1,8 +1,35 @@
+/* common style */
 
-/* header */
-.header{
-    background-color:#d35649 ;
+
+/* All colors */
+.primary-color-text{
+    color: #d35649;
 }
+.primary-color{
+    background-color: #d35649;
+}
+.primary-gray{
+    background-color: #98a5a5;
+}
+.primary-blue{
+    background-color: #509bd7;
+}
+.gray-footer{
+    background-color: #1f1f1f;
+}
+.gray-footer-btn{
+    background-color: #444;
+}
+.primary-purple{
+    background-color: #575a89;
+}
+.light-gray{
+    background-color: #eee;
+}
+
+/*end of common style *
+
+
 
 /* section0*/
 .section0-content{
@@ -33,10 +60,9 @@
     background-color: #d35649;
 }
 
-/* footer*/
-.footer{
-    background-color: #1f1f1f;
-}
+
+
+
 .footer-left, .footer-right{
     border-top: solid 1px white;
     border-bottom: solid 1px white;
@@ -46,8 +72,5 @@
     height: 80px;
     border-radius: 100%;
     border: solid 1px white;   
-}
-.footer-btn{
-    background-color: #444;
 }
 

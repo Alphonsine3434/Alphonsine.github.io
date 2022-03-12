@@ -15,16 +15,16 @@
     <div class="index-page ">
         <!-- header-->
         <div class="header">
-            <div class="header-content container-fluid row ">
-                <div class="nav-right col ">
-                    <img src="./Assets/Images/group-2.svg" width="50px" height="50px" alt="Logo">
-                    <a href="./index.html" class="text-decoration-none text-white active" >[EVENTS]</a>
+            <div class="header-content primary-color d-md-flex flex-md-row justify-content-md-between px-4">
+                <div class=" d-flex justify-content-center">
+                    <img src="./Assets/Images/group-2.svg" height="50vh" alt="Logo">
+                    <a href="./index.html" class="text-decoration-none my-auto text-white active" >[EVENTS]</a>
                 </div>
-                <ul class="list-unstyled col row d-flex text-end my-auto">
-                    <li class="col text-white"><i class="fa fa-search me-2"></i><a href="./search.html" class="text-decoration-none text-white">Search</a></li>
-                    <li class="col text-white"><i class="fa-regular fa-user me-2"></i><a href="./about.html" class="text-decoration-none text-white">About</a></li>
-                    <li class="col text-white"><i class="fa fa-rss me-2"></i><a href="#" class="text-decoration-none text-white">Blog</a></li>
-                    <li class="col text-white"><i class="fa fa-bars me-2"></i><a href="#" class="text-decoration-none text-white">More</a></li>
+                <ul class="list-unstyled d-flex justify-content-center my-auto">
+                    <li class="text-white d-flex ms-4"><a href="./search.html" class="text-decoration-none text-white fs-6"><i class="fa fa-search me-2"></i><span class="d-none d-md-inline" >Search</span> </a></li>
+                    <li class="text-white d-flex ms-4"><a href="./about.html" class="text-decoration-none text-white fs-6"><i class="fa-regular fa-user me-2"></i><span class="d-none d-md-inline">About</span> </a></li>
+                    <li class="text-white d-flex ms-4"><a href="#" class="text-decoration-none text-white fs-6"><i class="fa fa-rss me-2"></i><span class="d-none d-md-inline">Blog</span> </a></li>
+                    <li class="text-white d-flex ms-4"><a href="#" class="text-decoration-none text-white fs-6"><i class="fa fa-bars me-2"></i><span class="d-none d-md-inline">More</span> </a></li>
                 </ul>
             </div> 
         </div>
@@ -95,8 +95,8 @@
         <!-- end of section2-->
 
         <!-- footer-->
-        <div class="footer">
-            <div class="footer-content container-fluid py-4">
+        <div class="footer gray-footer">
+            <div class="footer-top py-4 px-4 d-none d-md-block">
                 <div class="d-flex justify-content-center">
                     <div class="my-auto footer-left py-2">
                         <a href="./index.html" class="text-decoration-none px-2 text-white">HOME</a>
@@ -114,39 +114,40 @@
                         <a href="#" class="text-decoration-none px-2 text-white">BLOG</a>
                     </div>
                 </div>
-                <div class="row text-center mt-4">
-                    <div class="col">
-                        <h3 class="text-white my-4">Subscribe</h3>
-                        <form action="" class="d-flex justify-content-center">
-                            <input type="email" placeholder="Insert your email here " style="width: 200px;">
-                            <input type="submit" value="Send">
+                <div class="row mt-4">
+                    <div class="col text-center">
+                        <h3 class="text-white my-4 fs-5">Subscribe</h3>
+                        <form action="" class="input-group d-flex justify-content-center">
+                            <input type="text" placeholder="Insert your e-mail here" class="gray-footer px-2" style="width:60%; border:1px solid #444;">
+                            <input type="submit" class="btn rounded gray-footer-btn text-white" value="Send">
                         </form>
                     </div>
-                    <div class="col">
-                        <h3 class="text-white my-4">Contact</h3>
+                    <div class="col text-center">
+                        <h3 class="text-white my-4 fs-5">Contact</h3>
                         <div>
                             <p class="text-white">Have a question or suggestion?</p>
-                            <a href="mailto:contact@Events.com" class="text-danger text-decoration-none">contact@Events.com</a>
+                            <a href="mailto:contact@Events.com" class="primary-color-text text-decoration-none">contact@Events.com</a>
                         </div>
                     </div>
-                    <div class=" col text-white">
-                        <h3 class=" my-4">About</h3>
-                        <p>[Events] is an online plateform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="#" class="text-danger text-decoration-none">learn more</a></p>
+                    <div class="col text-center text-white">
+                        <h3 class=" my-4 fs-5">About</h3>
+                        <p>[Events] is an online plateform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="#" class="primary-color-text text-decoration-none">learn more</a></p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-btn">
-            <div class="copyright-content px-3 d-flex justify-content-between bg-secondary py-2">
-                <div class="text-white py-2 my-auto">
-                    <a href="#" class="text-white"><i class="fa-brands fa-facebook-square me-4 fs-4"></i></a>
-                    <a href="#" class="text-white"><i class="fa-brands fa-twitter me-4 fs-4"></i></a>
-                    <a href="#" class="text-white"><i class="fa-brands fa-instagram me-4 fs-4"></i></a>
-                    <a href="#" class="text-white"><i class="fa-brands fa-tumblr me-4 fs-4"></i></a>
-                    <a href="#" class="text-white"><i class="fa-brands fa-linkedin me-4 fs-4"></i></a>
-                </div>
-                <div class="my-auto d-block py-2">
-                    <p class="">&copy; 2020 [Events], Inc.All rights reserved </p>
+
+            <div class="footer-bottom">
+                <div class="gray-footer-btn px-3 py-3 d-flex justify-content-between align-items-center">
+                    <div class="text-white">
+                        <a href="#" class="text-white"><i class="fa-brands fa-facebook-square me-4 fs-6"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-twitter me-4 fs-6"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-instagram me-4 fs-6"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-tumblr me-4 fs-6"></i></a>
+                        <a href="#" class="text-white"><i class="fa-brands fa-linkedin me-4 fs-6"></i></a>
+                    </div>
+                    <div class="">
+                        <p class="my-0">&copy; 2020 [Events], Inc.All rights reserved </p>
+                    </div>
                 </div>
             </div>
         </div>
